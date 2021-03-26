@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1616174421">
+  <File Type="CFI_FILE" Name="Salsa20.cfi"/>
+  <File Type="RCFI_FILE" Name="Salsa20.rcfi"/>
+  <File Type="PDI-FILE" Name="Salsa20.pdi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Salsa20_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Salsa20_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Salsa20_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Salsa20_methodology_drc_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Salsa20_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Salsa20_postroute_physopt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Salsa20_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Salsa20_postplace_pwropt.dcp"/>
+  <File Type="PWROPT-DCP" Name="Salsa20_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Salsa20_placed.dcp"/>
+  <File Type="OPT-DCP" Name="Salsa20_opt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Salsa20_bus_skew_routed.rpt"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Salsa20.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Salsa20.sysdef"/>
+  <File Type="BITSTR-MMI" Name="Salsa20.mmi"/>
+  <File Type="BITSTR-BMM" Name="Salsa20_bd.bmm"/>
+  <File Type="ROUTE-CLK" Name="Salsa20_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="Salsa20.nky"/>
+  <File Type="BITSTR-RBT" Name="Salsa20.rbt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Salsa20_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="Salsa20_reports.tcl"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Salsa20_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="Salsa20.msk"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Salsa20_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="Salsa20.tcl"/>
+  <File Type="ROUTE-TIMING-PB" Name="Salsa20_timing_summary_routed.pb"/>
+  <File Type="OPT-DRC" Name="Salsa20_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="Salsa20.rbd"/>
+  <File Type="BG-BIN" Name="Salsa20.bin"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Salsa20_timing_summary_routed.rpt"/>
+  <File Type="NPI_FILE" Name="Salsa20.npi"/>
+  <File Type="BG-BGN" Name="Salsa20.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Salsa20_routed_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="Salsa20.vdi"/>
+  <File Type="RNPI_FILE" Name="Salsa20.rnpi"/>
+  <File Type="BG-DRC" Name="Salsa20.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Salsa20_routed_error.dcp"/>
+  <File Type="BG-BIT" Name="Salsa20.bit"/>
+  <File Type="ROUTE-STATUS-PB" Name="Salsa20_route_status.pb"/>
+  <File Type="OPT-HWDEF" Name="Salsa20.hwdef"/>
+  <File Type="PLACE-IO" Name="Salsa20_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Salsa20_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Salsa20_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Salsa20_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Salsa20_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Salsa20_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Salsa20_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Salsa20_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Salsa20_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Salsa20_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Salsa20_route_status.rpt"/>
+  <File Type="ROUTE-DCP" Name="Salsa20_routed.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Salsa20DoubleKeys.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pkg_salsa.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Salsa20Hash.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Salsa20Key.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Salsa20_rounds.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Salsa20.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Salsa20"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/timing.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/timing.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

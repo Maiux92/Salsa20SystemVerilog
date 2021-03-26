@@ -1,0 +1,16 @@
+Name	Slice LUTs	Slice Registers	F7 Muxes	F8 Muxes	Block RAM Tile	DSPs	Bonded IOB	Bonded IPADs	PHY_CONTROL	PHASER_REF	OUT_FIFO	IN_FIFO	IDELAYCTRL	IBUFDS	PHASER_OUT/PHASER_OUT_PHY	PHASER_IN/PHASER_IN_PHY	IDELAYE2/IDELAYE2_FINEDELAY	ILOGIC	OLOGIC	BUFGCTRL	BUFIO	MMCME2_ADV	PLLE2_ADV	BUFMRCE	BUFHCE	BUFR	BSCANE2	CAPTUREE2	DNA_PORT	EFUSE_USR	FRAME_ECCE2	ICAPE2	PCIE_2_1	STARTUPE2	XADC
+Salsa20	2586	2590	128	64	0	0	139	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Salsa20DoubleKeys (Salsa20DoubleKeys)	2586	2200	128	64	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Salsa20Key (Salsa20Key)	2250	1096	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Salsa20Hash (Salsa20Hash)	2249	1030	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Salsa20DoubleRound (Salsa20DoubleRound)	2136	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+RowRound0 (Salsa20RowRound)	1107	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound3 (Salsa20QuarterRound_2)	299	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound2 (Salsa20QuarterRound_1)	236	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound1 (Salsa20QuarterRound_0)	286	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound0 (Salsa20QuarterRound)	286	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ColumnRound (Salsa20ColumnRound)	1153	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound3 (Salsa20QuarterRound_6)	304	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound2 (Salsa20QuarterRound_5)	306	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound1 (Salsa20QuarterRound_4)	240	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+QuarterRound0 (Salsa20QuarterRound_3)	303	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/media/psf/DigitalDesign/vivado/salsa20/salsa20.sim/sim_1/synth/func/xsim/tb_Salsa20_ok_func_synth.v,1616110655,verilog,,,,Salsa20;Salsa20ColumnRound;Salsa20DoubleKeys;Salsa20DoubleRound;Salsa20Hash;Salsa20Key;Salsa20QuarterRound;Salsa20QuarterRound_0;Salsa20QuarterRound_1;Salsa20QuarterRound_2;Salsa20QuarterRound_3;Salsa20QuarterRound_4;Salsa20QuarterRound_5;Salsa20QuarterRound_6;Salsa20RowRound;glbl,,uvm,,,,,,
+/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sources_1/new/pkg_salsa.sv,1614730884,systemVerilog,/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sources_1/new/tb_Salsa20_new.sv,/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sources_1/new/tb_Salsa20_new.sv,,pkg_salsa,,uvm,,,,,,
+/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sources_1/new/tb_Salsa20_new.sv,1616101122,systemVerilog,,,,tb_Salsa20_ok,,uvm,,,,,,

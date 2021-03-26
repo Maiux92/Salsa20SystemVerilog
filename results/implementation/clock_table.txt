@@ -1,0 +1,2 @@
+Name	Waveform	Period (ns)	Frequency (MHz)
+sysClk	{0.000 11.540}	23,08	43,33

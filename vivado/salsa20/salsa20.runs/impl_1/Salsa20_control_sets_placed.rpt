@@ -1,0 +1,98 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Fri Mar 19 18:22:08 2021
+| Host         : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 20.04.2 LTS
+| Command      : report_control_sets -verbose -file Salsa20_control_sets_placed.rpt
+| Design       : Salsa20
+| Device       : xc7a100t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    20 |
+|    Minimum number of control sets                        |    20 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    42 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    20 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    13 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              67 |           25 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               8 |            4 |
+| Yes          | No                    | No                     |            2311 |          733 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             204 |           82 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                           Enable Signal                           |           Set/Reset Signal          | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-------------------------------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | data_encdec_IBUF                                                  | Salsa20DoubleKeys/valid_reg_0       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/initialized_i_1_n_0                             | rst_IBUF                            |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | data_encdec_IBUF                                                  | Salsa20DoubleKeys/valid_i_1__0_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/Salsa20Key/Salsa20Hash/rounds_reg[3]_i_1_n_0    | rst_IBUF                            |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/initialized_reg_2[0]                            |                                     |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/current_key_chunk_id[3]_i_1_n_0                 | rst_IBUF                            |                4 |              7 |         1.75 |
+|  clk_IBUF_BUFG |                                                                   | rst_IBUF                            |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/initialized_reg_1[0]                            |                                     |               26 |             64 |         2.46 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/initialized_reg_0[3]                            |                                     |               19 |             64 |         3.37 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/initialized_reg_0[2]                            |                                     |               23 |             64 |         2.78 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/initialized_reg_0[1]                            |                                     |               20 |             64 |         3.20 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/initialized_reg_0[0]                            |                                     |               22 |             64 |         2.91 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/E[0]                                            |                                     |               40 |             64 |         1.60 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/chunk_key[63]_i_1_n_0                           |                                     |               64 |             64 |         1.00 |
+|  clk_IBUF_BUFG |                                                                   |                                     |               25 |             67 |         2.68 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/Salsa20Key/Salsa20Hash/x_little_in              | Salsa20DoubleKeys/key_start_reg_n_0 |               74 |            190 |         2.57 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/Salsa20Key/Salsa20Hash/x_little_in              |                                     |              111 |            322 |         2.90 |
+|  clk_IBUF_BUFG | Salsa20DoubleKeys/Salsa20Key/Salsa20Hash/enabled                  |                                     |              148 |            512 |         3.46 |
+|  key_valid     | Salsa20DoubleKeys/for_key_update[7].keys_chunks[0][7][63]_i_1_n_0 |                                     |              127 |            512 |         4.03 |
+|  key_valid     | Salsa20DoubleKeys/gen_key_id                                      |                                     |              131 |            512 |         3.91 |
++----------------+-------------------------------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+
+

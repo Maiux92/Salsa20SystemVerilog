@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_Salsa20Core_behav/xsimk -simmode gui -wdb tb_Salsa20Core_behav.wdb -simrunnum 0 -socket 34657
+Design successfully loaded
+Design Loading Memory Usage: 35316 KB (Peak: 35316 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 117528 KB (Peak: 174584 KB)
+Simulation CPU Usage: 50 ms

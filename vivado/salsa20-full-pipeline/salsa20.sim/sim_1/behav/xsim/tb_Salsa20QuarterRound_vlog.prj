@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../salsa20.srcs/sources_1/new/Salsa20_rounds.sv" \
+"../../../../salsa20.srcs/sources_1/new/pkg_salsa.sv" \
+"../../../../salsa20.srcs/sim_1/new/tb_Salsa20QuarterRound.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

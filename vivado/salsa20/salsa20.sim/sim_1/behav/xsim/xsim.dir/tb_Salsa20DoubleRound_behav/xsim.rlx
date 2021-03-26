@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7581821695097690334  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 9188e66cf7c443b38e5480d19e80ea73 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Salsa20DoubleRound_behav xil_defaultlib.tb_Salsa20DoubleRound xil_defaultlib.glbl" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:20:35" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/tb_Salsa20DoubleRound_behav/xsimk\"   \"xsim.dir/tb_Salsa20DoubleRound_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/tb_Salsa20DoubleRound_behav/obj/xsim_1.lnx64.o\" -L\"/opt/xilinx/Vivado/2020.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

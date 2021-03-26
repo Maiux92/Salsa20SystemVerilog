@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar 19 00:38:23 2021
+# Process ID: 193054
+# Current directory: /media/psf/DigitalDesign/vivado/salsa20/salsa20.sim/sim_1/synth/func/xsim
+# Command line: wbtcv -mode batch -source /media/psf/DigitalDesign/vivado/salsa20/salsa20.sim/sim_1/synth/func/xsim/xsim.dir/tb_Salsa20_ok_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /media/psf/DigitalDesign/vivado/salsa20/salsa20.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: /media/psf/DigitalDesign/vivado/salsa20/salsa20.sim/sim_1/synth/func/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /media/psf/DigitalDesign/vivado/salsa20/salsa20.sim/sim_1/synth/func/xsim/xsim.dir/tb_Salsa20_ok_func_synth/webtalk/xsim_webtalk.tcl -notrace

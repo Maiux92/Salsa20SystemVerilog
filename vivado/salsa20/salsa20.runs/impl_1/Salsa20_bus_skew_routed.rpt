@@ -1,0 +1,15 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Fri Mar 19 18:22:51 2021
+| Host         : parallels-Parallels-Virtual-Platform running 64-bit Ubuntu 20.04.2 LTS
+| Command      : report_bus_skew -warn_on_violation -file Salsa20_bus_skew_routed.rpt -pb Salsa20_bus_skew_routed.pb -rpx Salsa20_bus_skew_routed.rpx
+| Design       : Salsa20
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

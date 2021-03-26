@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /opt/xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 9188e66cf7c443b38e5480d19e80ea73 --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L uvm -L simprims_ver -L secureip --snapshot tb_Salsa20_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_Salsa20 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'ctx' on this module [/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sim_1/new/tb_Salsa20.sv:142]
+ERROR: [VRFC 10-3180] cannot find port 'ptx' on this module [/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sim_1/new/tb_Salsa20.sv:137]
+ERROR: [VRFC 10-3180] cannot find port 'nonce' on this module [/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sim_1/new/tb_Salsa20.sv:136]
+ERROR: [VRFC 10-3180] cannot find port 'key' on this module [/media/psf/DigitalDesign/vivado/salsa20/salsa20.srcs/sim_1/new/tb_Salsa20.sv:135]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

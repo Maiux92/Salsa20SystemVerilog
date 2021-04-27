@@ -1,6 +1,6 @@
 # SystemVerilog design and implementation of the Salsa20 stream cipher
 
-This is the final project of the course "[DIGITAL DESIGN OF EMBEDDED SYSTEMS IN THE IOT AND RISC-V OPEN CORE ERA](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=746344&polij_device_category=DESKTOP&__pj0=0&__pj1=999b5b20a837b6c1f2940f608e994d70)" for PhD students at Politecnico di Milano (Italy).
+This is the final project of the course "[DIGITAL DESIGN OF EMBEDDED SYSTEMS IN THE IOT AND RISC-V OPEN CORE ERA](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=746344&polij_device_category=DESKTOP&__pj0=0&__pj1=999b5b20a837b6c1f2940f608e994d70)" for PhD students at Politecnico di Milano (Italy), held by Prof. Davide Zoni and Prof. William Fornaciari.
 
 ## Repo structure
 
